@@ -2,6 +2,8 @@
 
 :root{
     --primary-color:#72A9C3;
+    --dark-gray:
+    #6B7280;
 }
 
 body{
@@ -20,9 +22,6 @@ hr{
     margin:2rem 0rem;
 }
 
-.container-fluid{
-
-}
 /* links */
 .link{
     text-decoration: none;
@@ -54,6 +53,7 @@ hr{
     background-color: var(--primary-color);
     color:white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .link{
@@ -69,3 +69,15 @@ hr{
     font-weight: bold;
 }
 
+/* headers */
+.hero{
+    padding:2rem;
+}
+.hero .hero-img{
+    max-width:350px;
+    display:block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color:var(--dark-gray);
+}
