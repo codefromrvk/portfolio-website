@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Hind', sans-serif;
+margin:0px;
 }
 
 .container{
@@ -81,6 +82,7 @@ hr{
 }
 .hero .hero-heading{
     color:var(--dark-gray);
+    text-align: center;
 }
 
 .section h1{
@@ -90,4 +92,22 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+/* footers */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start:0px;
 }
