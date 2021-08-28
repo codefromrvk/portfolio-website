@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
 
 :root{
     --primary-color:#72A9C3;
     --dark-gray:
     #6B7280;
+    --off-white:#F3F4F6;
 }
 
 body{
@@ -80,4 +81,13 @@ hr{
 }
 .hero .hero-heading{
     color:var(--dark-gray);
+}
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
