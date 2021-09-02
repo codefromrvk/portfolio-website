@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 :root{
     --primary-color:#72A9C3;
     --dark-gray:
@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Hind', sans-serif;
-margin:0px;
+    margin:0px;
 }
 hr {
     margin: 2rem 0rem;
