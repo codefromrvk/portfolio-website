@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
 :root{
     --primary-color:#72A9C3;
     --dark-gray:
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family:  sans-serif;
     margin:0px;
 }
 hr {
@@ -32,6 +32,7 @@ hr {
     max-width: 580px;
     margin: auto;
     text-align: center;
+    padding: 2rem;
 }
 
 /** links **/
@@ -88,9 +89,8 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 2rem;
     padding-left: 2rem;
-    /* padding-top: 1rem; */
+  
 }
 
 .navigation .nav-pills {
@@ -99,7 +99,7 @@ hr {
 
 .navigation .link {
     color: white;
-    font-size: 1.5rem;
+   
 }
 
 .navigation .link-active {
@@ -137,10 +137,6 @@ hr {
     padding: 2rem;
 }
 
-.section h1 {
-    text-align: center;
-
-}
 
 .ow {
     background-color: var(--off-white);
