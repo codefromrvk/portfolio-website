@@ -79,18 +79,16 @@ hr {
 }
 
 /** navigation **/
-
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 0.1rem;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    padding-left: 2rem;
-  
+    font-size: 1rem;
 }
 
 .navigation .nav-pills {
@@ -99,7 +97,6 @@ hr {
 
 .navigation .link {
     color: white;
-   
 }
 
 .navigation .link-active {
