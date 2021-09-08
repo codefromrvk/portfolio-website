@@ -1,6 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 :root{
-    --primary-color:#72A9C3;
+    --primary-color:#160798;
     --dark-gray:
     #6B7280;
     --off-white:#F3F4F6;
@@ -33,6 +34,11 @@ hr {
     margin: auto;
     text-align: center;
     padding: 2rem;
+}
+
+/* color  */
+.color{
+    color: var(--primary-color);
 }
 
 /** links **/
@@ -84,11 +90,13 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    text-shadow: 1px 4px 5px black;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1rem;
+    font-weight: 1000;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 2rem;
 }
 
 .navigation .nav-pills {
