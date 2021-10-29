@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #160798;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+@media only screen and (max-width: 470px) {
+  /** grid**/
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    grid-row-gap: 5%;
+    grid-column-gap: 3%;
+  }
+}
